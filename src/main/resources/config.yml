@@ -9,6 +9,7 @@ Notice:
 # Vault( http://dev.bukkit.org/bukkit-plugins/vault/ )が必要です。
 Economy:
   Enable: false
+  Refund: true
 # 自らコマンドで/flyを無効化した場合に残り時間分のお金を返金するか
   Refund: true
 # 1分辺りの金額
@@ -18,3 +19,5 @@ Economy:
     Enable: false
 #   送金先のアカウントは予め作成しておいてください
     Remittee: "Admin"
+    
+    
