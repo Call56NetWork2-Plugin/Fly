@@ -1,23 +1,23 @@
-DontHavePermission: "&cYou don't have permission!!"
-InvalidValue: "&cPlease enter the correct value."
+DontHavePermission: "&cあなたには権限がないの……"
+InvalidValue: "&c変な値が指定さてれる……"
 
 Fly:
-  Disable: "&cfly mode disabled!!"
-  # [%time%] = Flight time.
-  Enable: "&afly mode enable!! ([%time%] minutes)"
-  Infinity: "infinity"
-  # [%time%] = time left.
-  Left: "&cFlight will end in the remaining [%time%] second."
+  Disable: "&c飛行モードが無効になりました"
+  # マクロ:[%time%]=飛行時間
+  Enable: "&a飛行モードが有効になりました！！ ([%time%]分)"
+  Infinity: "無限"
+  # マクロ:[%time%]=残り時間
+  Left: "&c残り[%time%]秒で飛行モードが無効になります、着地して下さい。"
 
 Not:
-  Found: "&cPlayer is not found!!"
-  # [%player%] = player name.
-  Online: "&c[%player%] is not online!!"
-  Survival: "&c[%player%] is not survival!!"
+  Found: "&cプレイヤーが見つかりません"
+  # マクロ:[%player%]=プレイヤー名
+  Online: "&c[%player%]はオフラインです。"
+  Survival: "&c[%player%]はサバイバルモードではありません。"
 
 Economy:
-  NotEnough: "&cMoney is not enough!!"
-  # [%price%] = flight cost.
-  Payment: "&apaid [%price%] in order to perform the flight!!"
-  # [%minutes%]and[%second%] = time left.
-  Refund: "&aWill repay the [%price%] because you still have [%minutes%] minute [%second%] second of time."
+  NotEnough: "&cお金が足りません。"
+  # マクロ:[%price%]=料金
+  Payment: "&a飛行モードを利用するために[%price%]を支払いました"
+  # マクロ:[%minutes%],[%second%]=残り時間
+  Refund: "&a[%minutes%]分[%second%]秒の飛行時間が残っていたため、[%price%]を返金致しました。"

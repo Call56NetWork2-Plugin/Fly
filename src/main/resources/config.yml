@@ -1,17 +1,20 @@
-# The default time-of-flight(minutes)(0=infinite)
+# デフォルト(引数省略)時の飛行時間(分単位、0で無限)
 FlightTime: 10
 
-# Will inform the end time.(second)
+# 終了通知を行う時間(秒単位)
 Notice:
   Enable: true
   Time: 30
 
-# http://dev.bukkit.org/bukkit-plugins/vault/
+# Vault( http://dev.bukkit.org/bukkit-plugins/vault/ )が必要です。
 Economy:
   Enable: false
+# 自らコマンドで/flyを無効化した場合に残り時間分のお金を返金するか
   Refund: true
-# Cost per minute
+# 1分辺りの金額
   Cost: 100
   Tax:
+#   集めたお金を特定のアカウントに送金するか
     Enable: false
+#   送金先のアカウントは予め作成しておいてください
     Remittee: "Admin"
